@@ -18,7 +18,7 @@ Installation must be performed on the system running as root.  The process is:
 The easiest way to download the software is to clone the specific git repository.  This is done from a root command prompt, after changing to a directory where the software can be stored (''cd /tmp'' is often used):
   git clone https://github.com/rperper/lsmcd_cpanel_plugin.git
   
-### Install the Software ====
+### Install the Software
 
 To install the software you will need to change to the correct directory where the installation script is stored and execute the script:
   cd lsmcd_cpanel_plugin/res/lsmcd_usermgr
