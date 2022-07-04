@@ -66,11 +66,11 @@ You can also use the similar commands to create a custom script, and hook up wit
 ### Use 
 Once the software is installed, cPanel users will see a new option in their **Advanced** group:
 
-{{:litespeed_wiki:lsmcd:lsmcdmenuitem.jpg?400|}}
+<img src="https://www.litespeedtech.com/support/wiki/lib/exe/fetch.php/litespeed_wiki:lsmcd:lsmcdmenuitem.jpg"></img>
 
 When the item has been selected users will be brought to the main menu:
 
-{{:litespeed_wiki:lsmcd:lsmcdcpanelmain.jpg?400|}}
+<img src="https://www.litespeedtech.com/support/wiki/lib/exe/fetch.php/litespeed_wiki:lsmcd:lsmcdcpanelmain.jpg"></img>
 
 This screen has 3 groups of data:
   - Who you are:
@@ -85,7 +85,7 @@ This screen has 3 groups of data:
 
 The ''Change Password'' button will only be enabled if both SASL and user level security is enabled.  This facility is provided as access to a command prompt for running saslpasswd2 is not available to regular users, and regular users need the ability to keep the SASL password consistent with company policy.  Press the button to enter the **Change Password** screen.
 
-{{:litespeed_wiki:lsmcd:lsmcdcpanelchangepassword.jpg?400|}}
+<img src="https://www.litespeedtech.com/support/wiki/lib/exe/fetch.php/litespeed_wiki:lsmcd:lsmcdcpanelchangepassword.jpg"></img>
 
 As is common with password change facilities, the new password must be entered twice and must match.  Other than requiring a password, no additional password restrictions are placed on the password.  When the user enters the new password in both text boxes and presses **Change Password**, the ''saslpasswd2'' program is run and it is up to that program to validate the new password with system restrictions.
 
@@ -96,7 +96,7 @@ To display the Memcached statistics for the user (or the system as a whole if se
 
 Stats are displayed in the format below, the format determined by LSMCD, and are basically identical to those available from Memcached.  The primary difference being that the stats only reflect activity for those transactions done by the user validated by SASL and LSMCD.
 
-{{:litespeed_wiki:lsmcd:lsmcdcpanelstats.jpg?400|}}
+<img src="https://www.litespeedtech.com/support/wiki/lib/exe/fetch.php/litespeed_wiki:lsmcd:lsmcdcpanelstats.jpg"></img>
 
 Use the browser **Back** button to return to the main window.
 
